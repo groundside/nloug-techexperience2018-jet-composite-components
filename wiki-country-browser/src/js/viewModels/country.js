@@ -6,7 +6,7 @@ requirejs.config(
         'input-country':'jet-composites/input-country'
       }
     });
-  define(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojcomposite', 'jet-composites/input-country/loader'],
+  define(['ojs/ojcore', 'knockout', 'jquery','ojs/ojinputtext', 'ojs/ojlabel', 'ojs/ojcomposite', 'jet-composites/input-country/loader'],
     function (oj, ko, $) {
   
       function CountryViewModel() {

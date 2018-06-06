@@ -9,6 +9,17 @@ mkdir viewModels
 mkdir jet-composites
 
 
+<body class="demo-disable-bg-image">
+     <div>
+        <oj-input-text id="text-input" value="{{country}}"></oj-input-text>
+      </div>
+      <h2 data-bind="text: upperCountry"></h2>
+      <iframe id="countryIframe" data-bind="attr: {src:  'https://en.wikipedia.org/wiki/'+country()}" 
+              style="overflow-y : hidden ; height : 600px ; width :  100% ;border-width:0;" scrolling="yes" /></div>
+</body>  
+
+
+
 git clone https://github.com/lucasjellema/jet-composite-component-showroom
 
 
@@ -86,3 +97,6 @@ edit view views/country.html
       <h2 data-bind="text: upperCountry"></h2>
       <iframe id="countryIframe" data-bind="attr: {src:  'https://en.wikipedia.org/wiki/'+country()}" style="overflow-y : hidden ; height : 600px ; width :  100% ;border-width:0;" scrolling="yes" /></div>
 </body>  
+
+
+
